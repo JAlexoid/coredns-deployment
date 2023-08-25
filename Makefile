@@ -18,6 +18,8 @@ debian:
 
 debian-clean:
 	rm *.tgz
+	rm *.tar.gz
+	rm -rf src
 
 .PHONY: redhat
 redhat:
